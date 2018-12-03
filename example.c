@@ -6,11 +6,11 @@
 /*   By: bcastro <bcastro@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/20 03:05:52 by bcastro           #+#    #+#             */
-/*   Updated: 2018/11/20 03:48:04 by bcastro          ###   ########.fr       */
+/*   Updated: 2018/12/02 17:33:23 by bcastro          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./includes/libft.h"
+#include "libft.h"
 
 int	main(void)
 {
