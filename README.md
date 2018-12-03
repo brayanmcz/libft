@@ -41,7 +41,11 @@ If you try to compile using `gcc example.c` you will get an *undefined symbol* e
 
 When compiling you must add your compiled library when compiling with gcc:
 	
-    gcc example.c libft.a 
+    gcc example.c libft.a
+
+Now you can run the executable:
+
+	./a.out
     
 __* Disclaimer: *__ 
 *This repo is __NOT__ here for you to just copy code! If you are having trouble with your project, talk to your peers. If you cannot figure it out together, come back, read the code and try your best to understand what is going on. Write tests. Run the functions yourself. Then code the function to your understanding. Don't forget to enjoy yourself as you solve these problems. Coding should be at least a little fun. :)*
