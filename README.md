@@ -15,8 +15,8 @@ Libft is the first project as a Cadet in the 42 program. After successfully comp
 ## How does it work?
 If you have already cloned my repo cd into the corresponding directory, otherwise you can run:
 
-	git clone https://github.com/brayanmcz/42Program.git 42Program
-    cd 42Program/Libft
+	https://github.com/brayanmcz/libft libft
+    cd libft
     
 To compile the library from all the source files run:
 
