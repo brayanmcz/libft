@@ -6,7 +6,7 @@
 #    By: bcastro <bcastro@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/09/04 14:17:15 by bcastro           #+#    #+#              #
-#    Updated: 2018/12/02 17:00:44 by bcastro          ###   ########.fr        #
+#    Updated: 2018/12/13 21:09:08 by bcastro          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,16 +76,19 @@ SRC_FILES = 				ft_putchar.c \
 all: $(NAME)
 
 $(NAME): $(OBJ_FILES)
-	ar rc $(NAME) $(OBJ_FILES)
-	ranlib $(NAME)
-
+	@ar rc $(NAME) $(OBJ_FILES)
+	@ranlib $(NAME)
+	@echo "Compiled: $(NAME)"
+	
 $(OBJ_FILES): $(SRC_FILES)
-	gcc $(CMP_FLAGS) -c $(SRC_FILES)
+	@gcc $(CMP_FLAGS) -c $(SRC_FILES)
 
 clean:
-	rm -f $(OBJ_FILES)
+	@rm -f $(OBJ_FILES)
+	@echo "Removed .o files"
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
+	@echo "Removed $(NAME)"
 
 re: fclean all
