@@ -6,14 +6,14 @@
 #    By: bcastro <bcastro@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/09/04 14:17:15 by bcastro           #+#    #+#              #
-#    Updated: 2018/12/13 21:09:08 by bcastro          ###   ########.fr        #
+#    Updated: 2019/01/07 18:56:57 by bcastro          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 OBJ_FILES = $(SRC_FILES:.c=.o)
 CMP_FLAGS = -Wall -Werror -Wextra \
--I libft.h
+-I libft.h get_next_line.h
 SRC_FILES = 				ft_putchar.c \
 					ft_memset.c \
 					ft_putstr.c \
@@ -72,6 +72,7 @@ SRC_FILES = 				ft_putchar.c \
 					ft_lstadd.c \
 					ft_lstiter.c \
 					ft_lstmap.c \
+					get_next_line.c \
 
 all: $(NAME)
 
